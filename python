@@ -2,6 +2,9 @@ pandas.DataFrame.loc: Access a group of rows and columns by index label(s) or a 
 
 pandas.get_dummies: Convert categorical variable into dummy/indicator variables.
 
+a = b = 0
+The one-line syntax results in a and b having the same memory address - i.e. they refer to the same object
+
 
 
 
