@@ -1,3 +1,8 @@
 pandas.DataFrame.loc: Access a group of rows and columns by index label(s) or a boolean array.
 
+pandas.get_dummies: Convert categorical variable into dummy/indicator variables.
+
+
+
+
 
