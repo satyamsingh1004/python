@@ -58,6 +58,26 @@ t = (1, 2, 3)
 t = 1, 2, 3 # equivalent to above
 Tuples are often used for functions that have multiple return values.
 
+Python's triple quote syntax for strings lets us include newlines literally 
+
+Strings can be thought of as sequences of characters. Almost everything we've seen that we can do to a list, we can also do to a string.
+
+[char+'! ' for char in planet]
+
+strings are immutable
+
+datestr = '1956-01-31'
+year, month, day = datestr.split('-')
+
+'/'.join([month, day, year])
+
+"{}, you'll always be the {}th planet to me.".format(planet, position)
+
+Dictionaries
+numbers = {'one':1, 'two':2, 'three':3}
+
+
+
 
 
 
