@@ -18,6 +18,13 @@ max(100, 51, 14, key=mod_5)
 
 "pass" is a keyword that does literally nothing.
 
+True or True and False
+True
+and is evaluated before or
+
+print(bool(1)) # all numbers are treated as true, except 0
+print(bool("asf")) # all strings are treated as true, except the empty string ""
+
 
 
 
