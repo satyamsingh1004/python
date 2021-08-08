@@ -16,7 +16,7 @@ You can supply functions as arguments to other functions.
 Functions that operate on other functions are called "higher-order functions." 
 max(100, 51, 14, key=mod_5)
 
-
+"pass" is a keyword that does literally nothing.
 
 
 
