@@ -31,6 +31,38 @@ A list can contain a mix of different types of variables:
 
 my_favourite_things = [32, 'raindrops on roses', help]
 
+Elements at the end of the list can be accessed with negative numbers, starting from -1:
+
+Slicing
+planets[0:3]
+planets[:3]
+planets[3:]
+
+# All the planets except the first and last
+planets[1:-1]
+
+planets[-3:]
+
+Lists are "mutable", meaning they can be modified "in place".
+planets[:3] = ['Mur', 'Vee', 'Ur']
+
+List functions: len,sorted, sum,min,max
+
+everything in Python is an object
+
+List methods
+list.append, list.pop, list.index , "Earth" in planets, 
+
+Tuples: 2: They cannot be modified (they are immutable).
+t = (1, 2, 3)
+t = 1, 2, 3 # equivalent to above
+Tuples are often used for functions that have multiple return values.
+
+
+
+
+
+
 
 
 
