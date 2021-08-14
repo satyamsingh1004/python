@@ -76,6 +76,10 @@ year, month, day = datestr.split('-')
 Dictionaries
 numbers = {'one':1, 'two':2, 'three':3}
 
+import * makes all the module's variables directly accessible to you (without any dotted prefix).
+
+dir()
+
 
 
 
